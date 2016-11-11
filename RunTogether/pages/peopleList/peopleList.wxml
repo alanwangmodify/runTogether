@@ -1,0 +1,11 @@
+
+
+
+
+
+<block wx:for="{{list}}">
+    <view>
+    <view>{{item.name}}</view>
+    <view>{{item.introduce}}</view>
+    </view>
+</block>
