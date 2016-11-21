@@ -3,8 +3,9 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {}
+    motto: '寻找陪你跑步的人',
+    userInfo: {},
+    ohter: '有5个人想和你一起跑步',
   },
   //事件处理函数
   bindViewTap: function() {

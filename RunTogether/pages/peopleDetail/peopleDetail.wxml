@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.imageUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickname}}</text>
+  </view>
+  <text class="content" >已跑：200KM</text>
+  <text class="content" >{{userInfo.motto}}</text>
+
+  <view class="usermotto">
+  </view>
+  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+          disabled="{{disabled}}" bindtap="primary">和他一起跑步</button>
+</view>

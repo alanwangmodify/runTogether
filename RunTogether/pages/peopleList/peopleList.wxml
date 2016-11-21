@@ -2,10 +2,13 @@
 
 
 
+<view class='container'>
+    <block wx:for="{{list}}">
+        <view class='peopleCell' bindtap='clickCell'>
+            <image class="avatar" src="{{item.imageUrl}}" background-size="cover"></image>
+            <view class='content_text'>{{item.name}}</view>
+            <!--<view class="meter">已跑:{{item.runMeter}}</view>-->
+        </view>
+    </block>
+</view>
 
-<block wx:for="{{list}}">
-    <view>
-    <view>{{item.name}}</view>
-    <view>{{item.introduce}}</view>
-    </view>
-</block>

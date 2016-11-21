@@ -1,0 +1,27 @@
+
+.peopleCell {
+  height: 200rpx;
+  align-items: center;
+  padding-top: 20rpx;
+} 
+
+
+.content_text{
+    padding-top: 5rpx;
+    padding-left: 15rpx;
+    align-items: flex-end;
+}
+
+.avatar{
+    width: 80rpx;
+    height: 80rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.meter{
+    font-size: 20rpx;
+    color: orangered;
+    align-items: center;
+}

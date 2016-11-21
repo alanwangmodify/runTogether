@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/peopleList/peopleList"
+    "pages/peopleList/peopleList",
+    "pages/peopleDetail/peopleDetail"
   ],
   "window":{
     "backgroundTextStyle":"light",
